@@ -2,7 +2,7 @@ val ScalatraVersion = "2.5.1"
 
 organization := "io.kokoro.bot"
 
-name := "grb"
+name := "grbr"
 
 version := "0.1.0-SNAPSHOT"
 
@@ -17,7 +17,8 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty" % "jetty-webapp" % "9.2.15.v20160210" % "compile;container",
   "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
   "org.scalatra" %% "scalatra-json" % ScalatraVersion,
-  "org.json4s"   %% "json4s-jackson" % "3.5.0"
+  "org.json4s"   %% "json4s-jackson" % "3.5.0",
+  "org.scalaj" %% "scalaj-http" % "2.3.0"
 )
 
 enablePlugins(ScalatraPlugin)

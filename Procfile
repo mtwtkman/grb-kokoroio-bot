@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/grb -Dhttp.port=$PORT
+web: target/universal/stage/bin/grbr -Dhttp.port=$PORT
