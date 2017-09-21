@@ -19,7 +19,7 @@ class GrbrServlet extends ScalatraServlet {
     case None => "not found GRBR_KOKOROIO_BOT_CALLBACK_SECRET"
   }
 
-  val GRBR_PTN = """^!grbr(?:#(\d+))?$"""
+  val GRBR_PTN = """^/grbr(?:#(\d+))?$"""
   val GRBR_REGEX = GRBR_PTN.r
   val GURABURU_COMIC_LIST_URL = "http://game.granbluefantasy.jp/comic/list/1"
   val GURABURU_EPISODE_URL = "http://game-a1.granbluefantasy.jp/assets/img/sp/assets/comic/episode/episode_"
