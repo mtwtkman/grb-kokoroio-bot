@@ -1,3 +1,5 @@
+import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
+
 val ScalatraVersion = "2.5.1"
 
 organization := "io.kokoro.bot"
@@ -22,3 +24,4 @@ libraryDependencies ++= Seq(
 )
 
 enablePlugins(ScalatraPlugin)
+enablePlugins(JavaAppPackaging)
